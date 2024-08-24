@@ -1,7 +1,7 @@
 FROM codercom/code-server:latest
 
 RUN sudo apt update
-RUN sudo apt install -y build-essential nano nodejs 
+RUN sudo apt install -y build-essential nodejs npm 
 
 # Install "n", the node.js version manager
 # RUN curl -L https://git.io/n-install | bash -s -- -y lts latest
